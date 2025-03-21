@@ -11,14 +11,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <h2 class="hero__logo">8</h2>
             <p class="hero__logo">aniversário</p>
+            <img class="hero__lolo" src="./images/lolo.jpeg" alt="meu sobrinho">
             <p class="hero__text">
-                O melhor aniversário do Mundo começa em48d8d48d48
+                O melhor aniversário do Mundo começa <span id="contador"></span>
             </p>
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
@@ -41,17 +43,53 @@
             </div>
         </div>
     </header>
-    <section class="event">
-        <div class="container">
+    <section class="event event--churrasco" >
+    <div class="container" data-aos="flip-up">
+        <div class="event__details">
+            <h2 class="event__details__title">Churrasco</h2>
+            <p class="event__details__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim quo fugiat expedita facere explicabo facilis possimus architecto, quasi cumque delectus blanditiis cupiditate perspiciatis sequi soluta modi? Eius, fugiat deserunt!
+            </p>
+        </div>
+        <img class="event__image" src="./images/churasco.webp" alt="bolo">
+    </div>
+</section>
+    <section class="event event--bolo event--image-left" >
+        <div class="container" data-aos="flip-down">
             <div class="event__details">
-                <h2 class="event__details__title">Churasco</h2>
+                <h2 class="event__details__title">Bolo</h2>
                 <p class="event__details__description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim quo fugiat expedita facere explicabo facilis possimus architecto, quasi cumque delectus blanditiis cupiditate perspiciatis sequi soluta modi? Eius, fugiat deserunt!
                 </p>
             </div>
-            <img class="event__image" src="./images/churasco.webp" alt="churrasco">
+            <img class="event__image" src="./images/bolo.webp" alt="bolo">
         </div>
     </section>
+    <section class="event event--pinhata" >
+        <div class="container" data-aos="flip-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Pinhata</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim quo fugiat expedita facere explicabo facilis possimus architecto, quasi cumque delectus blanditiis cupiditate perspiciatis sequi soluta modi? Eius, fugiat deserunt!
+                </p>
+            </div>
+            <img class="event__image" src="./images/pinhata.jpg" alt="pinhata">
+        </div>
+    </section>
+    <section class="event event--presente event--image-left" >
+        <div class="container" data-aos="flip-down">
+            <div class="event__details">
+                <h2 class="event__details__title">Presente</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio enim quo fugiat expedita facere explicabo facilis possimus architecto, quasi cumque delectus blanditiis cupiditate perspiciatis sequi soluta modi? Eius, fugiat deserunt!
+                </p>
+            </div>
+            <img class="event__image" src="./images/e8d588f56a1197a1aa0241dbb7022824.jpeg" alt="cuecas">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script src="./sripts/main.js"></script>
 </body>
 </html>

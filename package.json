@@ -1,19 +1,25 @@
 {
   "name": "ao_niverdololo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convite interativo de aniversário",
   "scripts": {
-    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
-    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
-    "parcel": "^2.13.3",
-    "sharp": "^0.33.5"
-  }
+    "parcel": "^2.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l-dhias/lolo_niver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/l-dhias/lolo_niver/issues"
+  },
+  "homepage": "https://github.com/l-dhias/lolo_niver#readme"
 }

@@ -5,19 +5,19 @@
     background-color: variables.$colorB;
 
     &--churrasco {
-        background-image: linear-gradient(variables.$colorB, variables.$colorBlue1);
+        background-image: linear-gradient(variables.$colorB, variables.$colorB);
     }
 
     &--bolo {
-        background-image: linear-gradient(variables.$colorBlue1, variables.$colorBlue2);
+        background-image: linear-gradient(variables.$colorB, variables.$colorB);
     }
 
     &--pinhata {
-        background-image: linear-gradient(variables.$colorBlue2, variables.$colorBlue3);
+        background-image: linear-gradient(variables.$colorB, variables.$colorBlue1);
     }
 
     &--presente {
-        background-image: linear-gradient(variables.$colorBlue3, variables.$colorBlue4);
+        background-image: linear-gradient(variables.$colorBlue1, variables.$colorBlue1);
     }
 
     &--image-left {
